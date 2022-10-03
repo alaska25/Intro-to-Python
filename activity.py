@@ -18,11 +18,10 @@ occupation = "writer"
 movie = "one more chance"
 rating = 99.6
 
-print(f"I am {name}, and I am {age} years old, I work as a {occupation}, and my rating for {movie} is {rating}%")
+print(f"I am {str(name)}, and I am {int(age)} years old, I work as a {str(occupation)}, and my rating for {str(movie)} is {float(rating)}%")
 
-num1, num2, num3 = 3, 50, 150
+num1, num2, num3 = 2, 75, 150
 
 print(num1 * num2)
 print(num1 < num3)
-print(num3 + num2)
 
